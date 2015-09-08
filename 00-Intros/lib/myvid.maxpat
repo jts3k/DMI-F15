@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 0,
 			"revision" : 5,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -38,6 +38,46 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-26",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 609.0, 141.0, 150.0, 36.0 ],
+					"presentation_rect" : [ 605.5, 144.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "hit \"S\" to toggle FPS stats"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 778.5, 404.0, 150.0, 36.0 ],
+					"style" : "",
+					"text" : "hit \"i\" to toggle anti-aliasing"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 812.0, 354.0, 83.0, 23.0 ],
+					"style" : "",
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -56,7 +96,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 730.0, 381.0, 62.0, 23.0 ],
+					"patching_rect" : [ 730.0, 354.0, 62.0, 23.0 ],
 					"style" : "wm20150520a",
 					"text" : "sel 105"
 				}
@@ -69,7 +109,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 730.0, 341.0, 67.0, 23.0 ],
+					"patching_rect" : [ 730.0, 314.0, 67.0, 23.0 ],
 					"style" : "wm20150520a",
 					"text" : "key"
 				}
@@ -151,7 +191,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 5,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -192,7 +232,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 259.0, 258.0, 43.0, 22.0 ],
-									"presentation_rect" : [ 256.0, 258.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "r stats"
 								}
@@ -609,7 +648,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 5,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1264,7 +1303,7 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 426.75, 530.0, 623.0, 23.0 ],
 					"style" : "wm20150520a",
-					"text" : "jit.gl.videoplane video @scale 1.333 1. 1. @color 1 1 1 1 @transform_reset 0 @layer 1"
+					"text" : "jit.gl.videoplane video @scale 1.333 1. 1. @color 1 1 1 1 @transform_reset 1 @layer 1"
 				}
 
 			}
@@ -1281,7 +1320,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 5,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1482,9 +1521,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 55.0, 651.0, 486.0, 23.0 ],
+					"patching_rect" : [ 55.0, 651.0, 543.0, 23.0 ],
 					"style" : "wm20150520a",
-					"text" : "jit.window video @pos 10 50 @size 320 240 @fsmenubar 0 @floating 1"
+					"text" : "jit.window video @pos 10 50 @size 320 240 @fsmenubar 0 @floating 1 @fsaa 0"
 				}
 
 			}
@@ -1625,6 +1664,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1743,13 +1791,15 @@
 
 			}
  ],
+		"dependency_cache" : [  ],
+		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "wm20150520a",
 				"default" : 				{
 					"accentcolor" : [ 0.85109, 0.842249, 0.830042, 1.0 ],
 					"elementcolor" : [ 0.780914, 0.800218, 0.843168, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 0.18882, 0.288104, 0.351331, 1.0 ],
+					"bgcolor" : [ 0.982943, 0.978557, 0.972212, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1761,7 +1811,7 @@
 					}
 ,
 					"fontname" : [ "Monaco" ],
-					"bgcolor" : [ 0.982943, 0.978557, 0.972212, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
