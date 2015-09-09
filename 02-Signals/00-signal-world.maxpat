@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 0,
 			"revision" : 5,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -113,7 +113,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 5,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -457,7 +457,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 5,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -565,7 +565,7 @@
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 428.0, 186.0, 234.0, 22.0 ],
-									"prefix" : "Macintosh HD:/Users/stilesj/Google Drive/patches/DigitalMediaInteractions/DMI-F15/02-Signals/media/image-degrade/",
+									"prefix" : "Macintosh HD:/Users/jessestiles/Google Drive/patches/DigitalMediaInteractions/DMI-F15/02-Signals/media/image-degrade/",
 									"style" : "default"
 								}
 
@@ -582,7 +582,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 5,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -613,7 +613,6 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-3",
@@ -650,7 +649,7 @@
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 210.0, 336.0, 234.0, 22.0 ],
-													"prefix" : "Macintosh HD:/Users/stilesj/Google Drive/patches/DigitalMediaInteractions/DMI-F15/02-Signals/media/image-degrade/",
+													"prefix" : "Macintosh HD:/Users/jessestiles/Google Drive/patches/DigitalMediaInteractions/DMI-F15/02-Signals/media/image-degrade/",
 													"style" : "default"
 												}
 
@@ -673,9 +672,9 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 241.0, 173.0, 97.0, 22.0 ],
+													"patching_rect" : [ 241.0, 173.0, 79.0, 22.0 ],
 													"style" : "",
-													"text" : "s toplaylist"
+													"text" : "s degradelist"
 												}
 
 											}
@@ -861,9 +860,6 @@
 										"styles" : [ 											{
 												"name" : "wm20150520a",
 												"default" : 												{
-													"accentcolor" : [ 0.85109, 0.842249, 0.830042, 1.0 ],
-													"elementcolor" : [ 0.780914, 0.800218, 0.843168, 1.0 ],
-													"color" : [ 0.18882, 0.288104, 0.351331, 1.0 ],
 													"bgcolor" : [ 0.982943, 0.978557, 0.972212, 1.0 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
@@ -875,7 +871,10 @@
 														"autogradient" : 0
 													}
 ,
+													"accentcolor" : [ 0.85109, 0.842249, 0.830042, 1.0 ],
+													"elementcolor" : [ 0.780914, 0.800218, 0.843168, 1.0 ],
 													"fontname" : [ "Monaco" ],
+													"color" : [ 0.18882, 0.288104, 0.351331, 1.0 ],
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 ,
@@ -938,7 +937,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 5,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -1510,9 +1509,6 @@
 						"styles" : [ 							{
 								"name" : "wm20150520a",
 								"default" : 								{
-									"accentcolor" : [ 0.85109, 0.842249, 0.830042, 1.0 ],
-									"elementcolor" : [ 0.780914, 0.800218, 0.843168, 1.0 ],
-									"color" : [ 0.18882, 0.288104, 0.351331, 1.0 ],
 									"bgcolor" : [ 0.982943, 0.978557, 0.972212, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -1524,7 +1520,10 @@
 										"autogradient" : 0
 									}
 ,
+									"accentcolor" : [ 0.85109, 0.842249, 0.830042, 1.0 ],
+									"elementcolor" : [ 0.780914, 0.800218, 0.843168, 1.0 ],
 									"fontname" : [ "Monaco" ],
+									"color" : [ 0.18882, 0.288104, 0.351331, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
@@ -1560,7 +1559,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 5,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1887,7 +1886,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 5,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1945,7 +1944,7 @@
 										"followglobaltempo" : 0,
 										"formantcorrection" : 0,
 										"mode" : "basic",
-										"originallength" : [ 5119.956463, "ticks" ],
+										"originallength" : [ 5119.956543, "ticks" ],
 										"originaltempo" : 120.0,
 										"pitchcorrection" : 0,
 										"quality" : "basic",
@@ -2243,7 +2242,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 5,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2721,7 +2720,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 5,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2854,7 +2853,7 @@
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 203.0, 222.0, 234.0, 22.0 ],
-									"prefix" : "Macintosh HD:/Users/stilesj/Google Drive/patches/DigitalMediaInteractions/DMI-F15/02-Signals/media/slides/",
+									"prefix" : "Macintosh HD:/Users/jessestiles/Google Drive/patches/DigitalMediaInteractions/DMI-F15/02-Signals/media/slides/",
 									"style" : "default"
 								}
 
@@ -2871,11 +2870,11 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 5,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 1464.0, 276.0, 640.0, 480.0 ],
+										"rect" : [ 1464.0, 276.0, 915.0, 754.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2903,6 +2902,19 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-6",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 210.0, 295.0, 37.0, 22.0 ],
+													"style" : "",
+													"text" : "clear"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-3",
 													"maxclass" : "newobj",
@@ -2938,7 +2950,7 @@
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 210.0, 336.0, 234.0, 22.0 ],
-													"prefix" : "Macintosh HD:/Users/stilesj/Google Drive/patches/DigitalMediaInteractions/DMI-F15/02-Signals/media/slides/",
+													"prefix" : "Macintosh HD:/Users/jessestiles/Google Drive/patches/DigitalMediaInteractions/DMI-F15/02-Signals/media/slides/",
 													"style" : "default"
 												}
 
@@ -2949,7 +2961,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 106.0, 383.0, 97.0, 22.0 ],
+													"patching_rect" : [ 106.0, 381.0, 97.0, 22.0 ],
 													"style" : "",
 													"text" : "s toplaylist"
 												}
@@ -3129,6 +3141,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-2", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-6", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-24", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -3149,9 +3170,6 @@
 										"styles" : [ 											{
 												"name" : "wm20150520a",
 												"default" : 												{
-													"accentcolor" : [ 0.85109, 0.842249, 0.830042, 1.0 ],
-													"elementcolor" : [ 0.780914, 0.800218, 0.843168, 1.0 ],
-													"color" : [ 0.18882, 0.288104, 0.351331, 1.0 ],
 													"bgcolor" : [ 0.982943, 0.978557, 0.972212, 1.0 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
@@ -3163,7 +3181,10 @@
 														"autogradient" : 0
 													}
 ,
+													"accentcolor" : [ 0.85109, 0.842249, 0.830042, 1.0 ],
+													"elementcolor" : [ 0.780914, 0.800218, 0.843168, 1.0 ],
 													"fontname" : [ "Monaco" ],
+													"color" : [ 0.18882, 0.288104, 0.351331, 1.0 ],
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 ,
@@ -3226,7 +3247,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 5,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -3554,9 +3575,6 @@
 						"styles" : [ 							{
 								"name" : "wm20150520a",
 								"default" : 								{
-									"accentcolor" : [ 0.85109, 0.842249, 0.830042, 1.0 ],
-									"elementcolor" : [ 0.780914, 0.800218, 0.843168, 1.0 ],
-									"color" : [ 0.18882, 0.288104, 0.351331, 1.0 ],
 									"bgcolor" : [ 0.982943, 0.978557, 0.972212, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -3568,7 +3586,10 @@
 										"autogradient" : 0
 									}
 ,
+									"accentcolor" : [ 0.85109, 0.842249, 0.830042, 1.0 ],
+									"elementcolor" : [ 0.780914, 0.800218, 0.843168, 1.0 ],
 									"fontname" : [ "Monaco" ],
+									"color" : [ 0.18882, 0.288104, 0.351331, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
@@ -3604,7 +3625,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 5,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -3895,7 +3916,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 5,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -4044,7 +4065,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 5,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -4907,7 +4928,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 5,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -5306,9 +5327,6 @@
 		"styles" : [ 			{
 				"name" : "wm20150520a",
 				"default" : 				{
-					"accentcolor" : [ 0.85109, 0.842249, 0.830042, 1.0 ],
-					"elementcolor" : [ 0.780914, 0.800218, 0.843168, 1.0 ],
-					"color" : [ 0.18882, 0.288104, 0.351331, 1.0 ],
 					"bgcolor" : [ 0.982943, 0.978557, 0.972212, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -5320,7 +5338,10 @@
 						"autogradient" : 0
 					}
 ,
+					"accentcolor" : [ 0.85109, 0.842249, 0.830042, 1.0 ],
+					"elementcolor" : [ 0.780914, 0.800218, 0.843168, 1.0 ],
 					"fontname" : [ "Monaco" ],
+					"color" : [ 0.18882, 0.288104, 0.351331, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
