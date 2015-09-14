@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 131.0, 79.0, 2124.0, 1323.0 ],
+		"rect" : [ 34.0, 79.0, 1298.0, 679.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,33 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 354.0, 236.0, 413.0, 35.0 ],
+					"style" : "",
+					"text" : ";\rmax launchbrowser http://www.theimpersonalstereo.com/software/imp-dmx/"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 354.0, 193.0, 336.0, 33.0 ],
+					"style" : "",
+					"text" : "this patch makes use of the imp.dmx package of Max objects available at:"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"contdata" : 1,
 					"id" : "obj-27",
 					"maxclass" : "multislider",
@@ -45,7 +72,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 73.0, 643.666687, 1329.666748, 111.0 ],
+					"patching_rect" : [ 29.0, 462.666687, 935.666748, 113.0 ],
 					"setminmax" : [ 0.0, 255.0 ],
 					"settype" : 0,
 					"size" : 120,
@@ -63,7 +90,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 73.0, 801.0, 372.0, 22.0 ],
+					"patching_rect" : [ 29.0, 620.0, 372.0, 22.0 ],
 					"style" : "",
 					"text" : "imp.artnet.controller @auto 1 @unicast 1 @unicast_ip 10.7.158.185"
 				}
