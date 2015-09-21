@@ -781,7 +781,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 694.0, 444.048065, 321.0, 67.0 ],
+									"patching_rect" : [ 694.0, 438.048065, 321.0, 67.0 ],
 									"style" : "",
 									"text" : "AWESOME OR YOU LOSE"
 								}
@@ -1322,8 +1322,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-6::obj-16" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-1::obj-16" : [ "live.gain~[4]", "live.gain~", 0 ]
+			"obj-1::obj-16" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-6::obj-16" : [ "live.gain~[3]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
