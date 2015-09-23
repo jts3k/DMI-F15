@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 655.0, 258.0, 1587.0, 962.0 ],
+		"rect" : [ 158.0, 79.0, 1587.0, 962.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -713,7 +713,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1241.0, 77.0, 125.0, 22.0 ],
+					"patching_rect" : [ 1098.0, 76.0, 125.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2445,7 +2445,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1091.0, 72.0, 112.0, 22.0 ],
+					"patching_rect" : [ 967.0, 76.0, 112.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2984,7 +2984,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 941.0, 72.0, 134.0, 22.0 ],
+					"patching_rect" : [ 817.0, 76.0, 134.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3076,7 +3076,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 833.0, 73.0, 90.0, 22.0 ],
+					"patching_rect" : [ 704.0, 77.0, 90.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3666,7 +3666,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 496.0, 77.0, 96.0, 22.0 ],
+					"patching_rect" : [ 497.0, 77.0, 103.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3676,7 +3676,7 @@
 					}
 ,
 					"style" : "",
-					"text" : "p \"DIY lowpass\""
+					"text" : "p \"DIY lowpass~\""
 				}
 
 			}
@@ -5183,7 +5183,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 234.0, 78.0, 121.0, 22.0 ],
+					"patching_rect" : [ 227.0, 78.0, 121.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
