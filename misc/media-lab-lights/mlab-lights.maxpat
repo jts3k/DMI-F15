@@ -419,7 +419,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 1.0, 0, 30000.0, 4.0, 0 ],
+					"addpoints" : [ 0.0, 1.0, 0, 30000.0, 1.0, 0 ],
 					"domain" : 30000.0,
 					"id" : "obj-12",
 					"maxclass" : "function",
@@ -520,7 +520,7 @@
 					"patching_rect" : [ 1533.0, 152.5, 84.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 648.0, 433.0, 124.0, 35.0 ],
-					"saturation" : 254,
+					"saturation" : 101,
 					"varname" : "#1-rgb"
 				}
 
@@ -1839,13 +1839,13 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "lights.json",
-				"bootpath" : "~/Google Drive/patches/media-lab-lights/settings",
+				"bootpath" : "~/Google Drive/patches/DigitalMediaInteractions/DMI-F15/misc/media-lab-lights/settings",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mlab-lights-px.maxpat",
-				"bootpath" : "~/Google Drive/patches/media-lab-lights/lib",
+				"bootpath" : "~/Google Drive/patches/DigitalMediaInteractions/DMI-F15/misc/media-lab-lights/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1858,9 +1858,6 @@
 		"styles" : [ 			{
 				"name" : "mystyle",
 				"default" : 				{
-					"bgcolor" : [ 1.0, 0.999974, 0.999991, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : [ "Monaco" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1870,7 +1867,10 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"bgcolor" : [ 1.0, 0.999974, 0.999991, 1.0 ],
+					"fontname" : [ "Monaco" ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1889,10 +1889,6 @@
 , 			{
 				"name" : "white monospace",
 				"default" : 				{
-					"bgcolor" : [ 0.982943, 0.978557, 0.972212, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"color" : [ 0.18882, 0.288104, 0.351331, 1.0 ],
-					"fontname" : [ "Monaco" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1903,8 +1899,12 @@
 						"autogradient" : 0
 					}
 ,
+					"bgcolor" : [ 0.982943, 0.978557, 0.972212, 1.0 ],
+					"color" : [ 0.18882, 0.288104, 0.351331, 1.0 ],
 					"accentcolor" : [ 0.85109, 0.842249, 0.830042, 1.0 ],
-					"elementcolor" : [ 0.780914, 0.800218, 0.843168, 1.0 ]
+					"elementcolor" : [ 0.780914, 0.800218, 0.843168, 1.0 ],
+					"fontname" : [ "Monaco" ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1913,10 +1913,6 @@
 , 			{
 				"name" : "wm20150520a",
 				"default" : 				{
-					"bgcolor" : [ 0.982943, 0.978557, 0.972212, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"color" : [ 0.18882, 0.288104, 0.351331, 1.0 ],
-					"fontname" : [ "Monaco" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1927,8 +1923,12 @@
 						"autogradient" : 0
 					}
 ,
+					"bgcolor" : [ 0.982943, 0.978557, 0.972212, 1.0 ],
+					"color" : [ 0.18882, 0.288104, 0.351331, 1.0 ],
 					"accentcolor" : [ 0.85109, 0.842249, 0.830042, 1.0 ],
-					"elementcolor" : [ 0.780914, 0.800218, 0.843168, 1.0 ]
+					"elementcolor" : [ 0.780914, 0.800218, 0.843168, 1.0 ],
+					"fontname" : [ "Monaco" ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
