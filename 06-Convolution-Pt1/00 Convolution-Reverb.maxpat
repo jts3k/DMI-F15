@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 594.0, 274.0, 1366.0, 807.0 ],
+		"rect" : [ 107.0, 118.0, 1366.0, 807.0 ],
 		"bgcolor" : [ 0.674296, 0.675622, 0.655913, 1.0 ],
 		"editing_bgcolor" : [ 0.768438, 0.769549, 0.756928, 1.0 ],
 		"bglocked" : 0,
@@ -323,8 +323,8 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 12566.225586, "ticks" ],
-						"originaltempo" : 120.0,
+						"originallength" : [ 18988.951172, "ticks" ],
+						"originaltempo" : 119.999992,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
 						"timestretch" : [ 0 ]
@@ -558,8 +558,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-26" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-11" : [ "live.drop", "live.drop", 0 ]
+			"obj-11" : [ "live.drop", "live.drop", 0 ],
+			"obj-26" : [ "live.gain~[1]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -575,8 +575,9 @@
 		"styles" : [ 			{
 				"name" : "mystyle",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 1.0, 0.999974, 0.999991, 1.0 ],
+					"fontname" : [ "Monaco" ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -586,8 +587,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"fontname" : [ "Monaco" ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -606,9 +606,12 @@
 , 			{
 				"name" : "white monospace",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"color" : [ 0.18882, 0.288104, 0.351331, 1.0 ],
+					"accentcolor" : [ 0.85109, 0.842249, 0.830042, 1.0 ],
+					"elementcolor" : [ 0.780914, 0.800218, 0.843168, 1.0 ],
 					"bgcolor" : [ 0.982943, 0.978557, 0.972212, 1.0 ],
+					"fontname" : [ "Monaco" ],
+					"color" : [ 0.18882, 0.288104, 0.351331, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -618,10 +621,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"accentcolor" : [ 0.85109, 0.842249, 0.830042, 1.0 ],
-					"elementcolor" : [ 0.780914, 0.800218, 0.843168, 1.0 ],
-					"fontname" : [ "Monaco" ]
+
 				}
 ,
 				"parentstyle" : "",

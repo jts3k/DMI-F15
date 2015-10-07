@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 313.0, 208.0, 1366.0, 674.0 ],
+		"rect" : [ 670.0, 304.0, 1366.0, 674.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -297,6 +297,7 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-5",
@@ -1298,6 +1299,19 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 615.0, 59.0, 54.0, 22.0 ],
+									"style" : "",
+									"text" : "open 90"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-15",
@@ -1571,6 +1585,15 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1726,7 +1749,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 313.0, 234.0, 1366.0, 648.0 ],
+						"rect" : [ 0.0, 26.0, 1366.0, 648.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1811,7 +1834,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 508.0, 285.0, 191.0, 71.0 ],
+										"rect" : [ 195.0, 77.0, 191.0, 71.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -2764,12 +2787,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-2::obj-13" : [ "live.tab[6]", "live.tab", 0 ],
-			"obj-2::obj-9" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-3::obj-9" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-8::obj-6::obj-6" : [ "live.tab[7]", "live.tab[1]", 0 ],
 			"obj-1::obj-9" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-1::obj-13" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-2::obj-13" : [ "live.tab[6]", "live.tab", 0 ],
+			"obj-3::obj-9" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-2::obj-9" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-8::obj-6::obj-6" : [ "live.tab[7]", "live.tab[1]", 0 ],
 			"obj-3::obj-13" : [ "live.tab[3]", "live.tab", 0 ]
 		}
 ,
@@ -2805,7 +2828,7 @@
 			}
 , 			{
 				"name" : "mr-fourier.png",
-				"bootpath" : "~/Google Drive/patches/SP4CP/20141027/graphics",
+				"bootpath" : "~/Google Drive/patches/DigitalMediaInteractions/DMI-F15/08-Spectra/graphics",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
