@@ -1,0 +1,65 @@
+{
+	"pattrstorage" : 	{
+		"name" : "grainy",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"Cf" : [ 1712 ],
+					"fade" : [ 0.3 ],
+					"grain-size" : [ 30.0 ],
+					"pitch" : [ 2.0 ],
+					"pos-ran" : [ 24.0 ],
+					"speed" : [ 0.01 ],
+					"spread" : [ 1.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"Cf" : [ 12000 ],
+					"fade" : [ 0.02 ],
+					"grain-size" : [ 300.0 ],
+					"pitch" : [ 1.0 ],
+					"pos-ran" : [ 0.0 ],
+					"speed" : [ 0.02 ],
+					"spread" : [ 1.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"Cf" : [ 700 ],
+					"fade" : [ 0.5 ],
+					"grain-size" : [ 300.0 ],
+					"pitch" : [ 0.5 ],
+					"pos-ran" : [ 1438.0 ],
+					"speed" : [ 0.1 ],
+					"spread" : [ 1.0 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"Cf" : [ 14000 ],
+					"fade" : [ 0.5 ],
+					"grain-size" : [ 13.0 ],
+					"pitch" : [ 1.0 ],
+					"pos-ran" : [ 0.0 ],
+					"speed" : [ 2.0 ],
+					"spread" : [ 1.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
